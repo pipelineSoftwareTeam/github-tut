@@ -18,6 +18,8 @@ function App() {
 		setCount({ max: 30, min: 2 });
 	}, []);
 
+	// Added comment
+
 	return (
 		<>
 			<div>
