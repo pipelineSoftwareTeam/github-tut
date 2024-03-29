@@ -35,7 +35,15 @@ function App() {
 						setCount((count) => ({ ...count, max: count.max + 1 }))
 					}
 				>
-					count is {count.max}
+					Increment
+				</button>
+				<div>count is {count.max}</div>
+				<button
+					onClick={() =>
+						setCount((count) => ({ ...count, max: count.max - 1 }))
+					}
+				>
+					Decrement
 				</button>
 				<p>
 					Edit <code>src/App.tsx</code> and save to test HMR
